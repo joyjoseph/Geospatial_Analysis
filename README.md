@@ -1,32 +1,30 @@
-Provenance:
-
-This data was generated as an extract from the OpenStreetMap global open database
-(http://openstreetmap.org) by the Healthsites.io (http://healthsites.io) project. 
-
-Caveats:
-
-This data is an extract from OpenStreetMap and may differ in part or substantially from the
-current state of the upstream OpenStreetMap project. In particular, entities deleted in 
-OpenStreetMap may still be present in this extract, and changes to entities in OpenStreetMap
-may not yet be reflected in this extract.
-
-Healthsites.io provides these extracts as a convenience to people and organizations 
-interested in supporting access to healthcare. In addition to the provisions laid out
-in the ODBL license, Healthsites.io takes no responsibility for any inadequacies in the
-data provided here. All data is provided on a best effort basis. 
+## Geospatial analysis
 
 
+### Background of Challenge
 
-Please make sure to credit the OpenStreetMap project whenever using this data using the text 
-in the 'data credits' section below. Although not required, we would appreciate it if you 
-additionally mention the HealthSites.io project (and link to our web site at http://healthsites.io) when citing this
-data - it will help to support and publicise our work.
+There is a growing interest in the Nigerian health sector in recent years. Although the health sector
+has seen advancement in their processes, there remains a gap in the use of spatial analysis in
+providing locational insight which will enhance optimal resource allocation and service delivery.
+In the region of Borno, the health system has suffered significant deterioration due to ongoing
+conflict. Primary care services are inadequate, referrals are difficult to make, and hospitals are
+overwhelmed with patients. As a result, the local population has limited access to healthcare
+services.
 
-License:
+Unfortunately, there is a scarcity of organizations addressing these urgent needs, leading to
+significant gaps in essential health services. The overall situation in Borno highlights the urgent need
+for comprehensive and improved healthcare intervention and optimized resource distribution.
+You have been invited as a Geospatial Data Scientist intern to analyse the available datasets that can
+guide a developmental agency in making the most suitable decisions for intervention to improve
+access to healthcare for the people in the state. The agency would like to understand the
+distribution of facilities that are in high-risk areas for mobilization of adequate security and the risk
+profile of the different population groups due to inadequate access to healthcare.
+Please note the following:
 
-Data: Open Database License http://opendatacommons.org/licenses/odbl/ - see accompanying LICENSE.txt 
-    file for a complete copy of this license.
-Data credits : © OpenStreetMap contributors (http://www.openstreetmap.org/copyright)
+### Tool used for the analysis
 
-Our intention is to foster widespread usage of the data that we provide. 
-Please use this data in the interests of humanity and not for nefarious purposes.
+The tool used for the analysis is Geopandas for Geospatial analysis
+
+### What is the structure of the dataset?
+
+There are four datasets provided: conflict, health facilities, population density and admin boundary. Which is used to extract and analyze the data that is specific to Borno State, and used for final analysis, visualization and story-telling.
